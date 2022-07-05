@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <form action="login.html" method="get">
+        <div>
+            <label for="nombreUsuario">Nombre Usuario</label>
+            <input type="text" name="nombreUsuario" id="nombreUsuario" required/>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <input type="password" name="password"  id="password" required/>
+        </div>
+        <div>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email"/>
+        </div>
+        <div>
+            <label for="edad">Edad</label>
+            <input type="number" name="edad" id="edad" min="0" max="130"/>
+        </div>
+        <div>
+            <label for="nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="nacimiento" id="nacimiento"/>
+        </div>
+        <div>
+            <label for="comentarios">Dejanos tus comentarios sobre el login</label>
+            <textarea name="" id="comentarios" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Enviar</button>
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>
